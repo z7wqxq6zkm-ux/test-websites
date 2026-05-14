@@ -3,11 +3,5 @@
   "outputDirectory": ".next",
   "devCommand": "next dev --port $PORT",
   "installCommand": "npm install",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": {
-      "description": "The URL of your site",
-      "required": true
-    }
-  },
   "framework": "nextjs"
 }
