@@ -69,7 +69,7 @@ export default function Hero() {
               Tudo para o seu carro
             </h1>
             <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-              Baterias de qualidade, acessórios premium e peças confiáveis. Temos tudo o que você precisa para manter seu carro em perfeito estado.
+              Na KSM temos baterias de qualidade, acessórios premium e peças confiáveis. Tudo o que você precisa para manter seu carro em perfeito estado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
