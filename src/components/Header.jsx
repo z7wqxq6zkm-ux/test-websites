@@ -14,8 +14,8 @@ export default function Header() {
     <header className="bg-dark text-white sticky top-0 z-50 shadow-lg">
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo with Image */}
-          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition">
+          {/* Logo with Image and Company Name */}
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
             <img 
               src="https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/242692774_2982017112056940_2866878707729737438_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=R_9Z6UCSJWMQ7kNvwFQFfTe&_nc_oc=AdpSIY-0c67M5ju13ajqXOHC-v0dFOg8KipSdrH6tPaq7Dp5PN22TZPZaCkCRwwPQPo&_nc_zt=23&_nc_ht=scontent-lis1-1.xx&_nc_gid=9-cDrHIuyjzHlvwNOBAcfQ&_nc_ss=7b2a8&oh=00_Af5kGe63QWwtXTAX27-PMaFexBR8Gfw-xhWkNco4DTjv7w&oe=6A0AA6F1"
               alt="KSM Logo"
@@ -24,6 +24,10 @@ export default function Header() {
                 e.target.style.display = 'none';
               }}
             />
+            <div className="hidden sm:block">
+              <p className="font-bold text-sm leading-tight">KSM</p>
+              <p className="text-xs text-gray-400">Comércio de Baterias, Tapetes e Acessórios Auto</p>
+            </div>
           </Link>
 
           {/* Navigation */}
