@@ -108,7 +108,7 @@ export default function Footer() {
 
         {/* Security Note */}
         <div className="mt-6 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
-          <p>🔒 Seu site é seguro, rápido e otimizado para conversão.</p>
+          <p>🔒 Created and maintained by Primentix</p>
         </div>
       </div>
     </footer>
