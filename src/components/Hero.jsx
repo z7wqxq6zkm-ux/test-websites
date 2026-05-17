@@ -55,8 +55,8 @@ export default function Hero() {
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          {/* Left: Content */}
-          <div className="fade-in flex flex-col items-center text-center">
+          {/* Left: Content - Centered on Mobile */}
+          <div className="fade-in flex flex-col items-center text-center md:items-start md:text-left">
             {/* Animated Logo - Centered */}
             <div className="mb-6 animate-bounce">
               <img 
@@ -69,7 +69,7 @@ export default function Hero() {
               Tudo para o seu carro
             </h1>
             <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-              Na KSM temos baterias de qualidade, acessórios premium e peças confiáveis. Tudo o que você precisa para manter seu carro em perfeito estado.
+              Baterias de qualidade, acessórios premium e peças confiáveis. Temos tudo o que você precisa para manter seu carro em perfeito estado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -87,24 +87,24 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="mt-8 grid grid-cols-3 gap-4">
+            <div className="mt-8 grid grid-cols-3 gap-4 w-full">
               <div className="text-center">
                 <p className="text-3xl font-bold text-primary">15+</p>
-                <p className="text-gray-400">Anos de experiência</p>
+                <p className="text-gray-400 text-sm">Anos de experiência</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-primary">1000+</p>
-                <p className="text-gray-400">Clientes satisfeitos</p>
+                <p className="text-gray-400 text-sm">Clientes satisfeitos</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-primary">500+</p>
-                <p className="text-gray-400">Produtos</p>
+                <p className="text-gray-400 text-sm">Produtos</p>
               </div>
             </div>
           </div>
 
-          {/* Right: Photo Slider */}
-          <div className="hidden md:flex justify-center items-center">
+          {/* Right: Photo Slider - NOW VISIBLE ON ALL SCREENS */}
+          <div className="flex justify-center items-center">
             <div className="relative w-full h-96 rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={photos[currentPhoto].url}
